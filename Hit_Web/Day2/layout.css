@@ -6,50 +6,53 @@
 #main{
     background-color: #cccccc;
     padding: 12px;
+    height: 100vh;
 }
 div{
     border: 1px solid #ffffff;
 }
 .head{
     background-color: lightpink;
-    height: 40px;
+    height: 10%;
 }
 #body{
     display: flex;
+    height: 80%;
 }
 #left{
     width: 55%;
+    height: 100%;
 }
 .xanh{
     background-color: darkgreen;
-    height: 400px;
+    height: 60%;
 }
 .duoi{
     display: flex;
-    height: 240px !important;
+    height: 40% !important;
 }
 .duoi1{
     width: 50%;
 }
 .item2{
     background-color: red;
-    height: 100px;
+    height: 60%;
 }
 .item{
     background-color:chocolate;
-    height: 140px;
+    height: 40%;
 }
 .item1{
     width: 50%;
     background-color: orchid;
-    height: 240px;
+    height: 100%;
 }
 #right{
     width: 45%;
 }
 .so1{
     display: flex;
-    height: 160px;
+    height: 20%;
 }
 .so1-1{
     width: 76%;
@@ -62,21 +65,22 @@ div{
 }
 .so2,.so4{
     background-color: yellow;
-    height: 80px;
+    height: 10%;
 }
 .so3{
     display: flex;
     justify-content: space-between;
+    height: 60%;
 }
 .item5{
     width: 33%;
     background-color: blue;
-    height: 310px;
+    height: 100%;
 }
 .item6{
     background-color: brown;
 }
 .foot{
-    height: 40px;
+    height: 10%;
     background-color: black;
 }
