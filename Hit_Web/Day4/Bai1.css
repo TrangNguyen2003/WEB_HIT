@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #3d9fb8;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    padding: 32px 80px;
+}
+#sub-main{
+    padding: 32px 0 0 32px ;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 8px 8px 8px rgba(0 0 0 /60%);
+}
+#tren h1{
+    border:2px solid #736ebe;
+    border-radius: 20px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 6px;
+    color: #736ebe;
+    font-size:28px;
+    height:max-content;
+}
+h1 span{
+    font-weight: 600;
+}
+#tren{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    padding-right: 32px;
+    width: 40%;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 64px;
+    color: #8981b2;
+}
+#menu ul li:hover a
+{
+    color:indigo;
+}
+#duoi{
+    margin-top: 60px;
+    display: flex;
+    height: 720px;
+    position: relative;
+}
+#duoi-trai{
+    width:30%;
+    position: absolute;
+    top:1%;
+    padding-left: 4%;
+}
+#duoi-trai h1 {
+    color: #736ebe; 
+    font-size: 180px;
+    letter-spacing: 8px;
+    font-family: 'Paytone One', sans-serif;
+    line-height: 180px;
+    text-indent: 8px;
+}
+#duoi-trai h2{
+    font-size: 78px;
+    font-weight: 300;
+    color: #736ebe;
+    letter-spacing: 8px;
+    line-height: 70px;
+}
+#duoi-trai h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #736ebe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#duoi-trai .text1{
+    margin-top: 44px;
+    color: #717171;
+    font-size: 18px;
+    line-height: 30px;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    padding-right: 24px;
+}
+#duoi-trai button{
+    color: #ffffff;
+    background-color: #f95e62;
+    border: 0;
+    border-radius: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-top: 44px; 
+}
+#duoi-trai button:hover{
+    background-color: #ccc;
+}
+#duoi-phai{
+    width: 82%;
+    margin-left: 18%;
+}
+#duoi img{
+    width:100%;
+    height: 720px;
+    border-radius: 0 0 50px 0;
+}
